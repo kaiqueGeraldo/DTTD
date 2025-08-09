@@ -1,32 +1,32 @@
-# 🌎 DTTD - Site Institucional
+# 🌎 DTTD - Institutional Website
 
-Este repositório contém o código-fonte do site institucional desenvolvido para a **DTTD**.  
-O site é simples, responsivo e otimizado para carregamento rápido das imagens utilizando o Next.js.
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- [Next.js](https://nextjs.org/) - Framework React para aplicações web
-- [React](https://react.dev/) - Biblioteca JavaScript para interfaces
-- [TailwindCSS](https://tailwindcss.com/) - Estilização responsiva e otimizada
-- [next/image](https://nextjs.org/docs/api-reference/next/image) - Otimização automática de imagens
+This repository contains the source code for the **DTTD** institutional website.  
+The site is simple, responsive, and optimized for fast image loading using Next.js.
 
 ---
 
-## 📷 Estrutura do Site
+## 🚀 Technologies Used
 
-- **Cabeçalho** com bandeiras do Brasil
-- **Logo da DTTD** com link para o site oficial
-- **Lista de empresas parceiras** com seus respectivos links e logotipos
-- **Imagem das bandeiras** Brasil e Holanda
-- **Rodapé** com bandeiras da Holanda
+- [Next.js](https://nextjs.org/) - React framework for web applications  
+- [React](https://react.dev/) - JavaScript library for building interfaces  
+- [TailwindCSS](https://tailwindcss.com/) - Responsive and optimized styling  
+- [next/image](https://nextjs.org/docs/api-reference/next/image) - Automatic image optimization  
 
 ---
 
-## 📦 Instalação e Uso
+## 📷 Website Structure
 
-Clone este repositório e instale as dependências:
+- **Header** with Brazilian flags  
+- **DTTD Logo** linked to the official website  
+- **List of partner companies** with their respective links and logos  
+- **Image of Brazilian and Dutch flags**  
+- **Footer** with Dutch flags  
+
+---
+
+## 📦 Installation & Usage
+
+Clone this repository and install the dependencies:
 
 ```bash
 git clone https://github.com/kaiqueGeraldo/DTTD.git
@@ -34,24 +34,24 @@ cd DTTD
 npm install
 ```
 
-Para rodar localmente:
+To run locally:
 
 ```bash
 npm run dev
 ```
 
-O site estará disponível em:  
+The site will be available at:  
 [http://virgula.vercel.app](http://virgula.vercel.app)
 
 ---
 
-## 🌐 Deploy
+## 🌐 Deployment
 
-O projeto pode ser facilmente hospedado no [Vercel](https://vercel.com/) ou qualquer outro provedor de hospedagem compatível com Next.js.
+The project can be easily hosted on [Vercel](https://vercel.com/) or any other hosting provider compatible with Next.js.
 
 ---
 
-## 📜 Licença
+## 📜 License
 
-Este projeto é de propriedade exclusiva de **Kaique Geraldo**.  
-Todos os direitos reservados.
+This project is the exclusive property of **Kaique Geraldo**.  
+All rights reserved. Read more in (LICENSE)LICENSE.
