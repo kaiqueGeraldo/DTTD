@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   const companies = [
     {
@@ -38,9 +40,12 @@ export default function Home() {
       {/* Título e Subtítulo */}
       <div className="mt-5">
         <a href="http://dttd.com.br" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/img/cabecalho.webp"
             alt="DTTD Logo"
+            width={500}
+            height={200}
+            priority
             className="mx-auto w-100 md:w-110"
           />
         </a>
@@ -56,9 +61,12 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex items-center justify-center"
           >
-            <img
+            <Image
               src={company.logo}
               alt={company.name}
+              width={300}
+              height={150}
+              loading="lazy"
               className="w-100 h-auto object-contain"
             />
           </a>
@@ -67,9 +75,12 @@ export default function Home() {
 
       {/* Bandeiras */}
       <div className="mt-5">
-        <img
+        <Image
           src="/img/bandeiras.webp"
           alt="Bandeiras Brasil e Holanda"
+          width={320}
+          height={150}
+          loading="lazy"
           className="w-80 mx-auto"
         />
       </div>
