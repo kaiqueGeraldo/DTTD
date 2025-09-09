@@ -38,7 +38,6 @@ export default function Home() {
       </div>
 
       {/* Título e Subtítulo */}
-      <div className="mt-5">
         <a href="http://dttd.com.br" target="_blank" rel="noopener noreferrer">
           <Image
             src="/img/cabecalho.webp"
@@ -49,7 +48,6 @@ export default function Home() {
             className="mx-auto w-100 md:w-110"
           />
         </a>
-      </div>
 
       {/* Lista de empresas */}
       <div className="mt-5 w-full max-w-md space-y-4 px-4">
